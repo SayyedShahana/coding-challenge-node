@@ -103,8 +103,7 @@ CREATE TABLE public.users (
 ### Notes
 - CSV parsing is implemented without third‑party CSV libraries. It supports quoted fields, commas inside quotes, and escaped quotes using `""`.
 - Very large CSVs can be processed as long as they fit in memory. For truly massive files, swap `parseCsvFileToObjects` with a streaming importer.
-
-OUTPUTS:
+**OUTPUTS:**
 <img width="752" height="690" alt="Image" src="https://github.com/user-attachments/assets/cd2528a0-0fff-40ba-85f9-87b3804414bd" />
 <img width="932" height="52" alt="Image" src="https://github.com/user-attachments/assets/52241323-82d8-4e28-a490-112d29f61f85" />
 <img width="573" height="332" alt="Image" src="https://github.com/user-attachments/assets/6235447f-d27c-47e2-9279-0e7bcba6880c" />
